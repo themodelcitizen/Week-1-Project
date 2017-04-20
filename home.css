@@ -1,0 +1,294 @@
+
+
+/*BACKGROUND*/
+
+.topnav {
+  height: 1000px;
+  background: url("mountbromo.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 5px; 
+}
+
+.contact {
+  height: 80px;
+  background: url("mountbromo.jpg");
+  margin: 0;
+  padding: 5px; 
+}
+
+.bottomnav {
+  height: 500px;
+  background: url("footer.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 5px; 
+}
+
+/*NAVIGATION*/
+
+.topnav nav {
+  max-width: 600px;
+  margin: auto;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact nav {
+  max-width: 600px;
+  margin: auto;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomnav {
+  margin: auto;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topnav nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold; 
+  color: #616382;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.contact nav a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold; 
+  color: #616382;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.bottomnav a {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 200; 
+  color: #616382;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.topnav nav a:hover {
+  color: #ffffff;
+}
+
+.bottomnav nav a:hover {
+  color: #ffffff;
+}
+
+.active {
+  border-bottom: solid 2px #c2002e;
+} 
+
+
+/*CONTENT*/
+
+.topnav div {
+  text-align: center;
+  padding: 16px;
+}
+
+.topnav div h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 60px; 
+  font-weight: 100; 
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.topnav div h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: 25px;
+    color: #c2002e;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.topnav div p {
+  font-size: 16px 'Cormorant Garamond', serif;
+  color: #ffffff;
+}
+
+section {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+section p:nth-of-type(1):first-letter {
+  font: 50px bold;
+  initial-letter: 1;
+  line-height: 0;
+}
+
+section figure {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section figure div {
+  flex: 2;
+  margin-bottom: 12px;
+}
+
+
+section figure div img {
+  height: 100%;
+  width: 100%;
+}
+
+section figure figcaption {
+  flex: .5;
+  font-size: 14px;
+  line-height: 2;
+  border-top: solid 2px #c2002e;
+  padding-top: 10px;
+  margin: 0 15px 10px;
+}
+
+section blockquote {
+  margin: 0;
+  border-left: solid 2px #c2002e;
+  padding-left: 10px;
+}
+
+section blockquote h2 {
+  font-family: 'Cormorant Garamond' serif;
+  font-weight: 100;
+}
+
+section figure {
+  float: right;
+}
+
+section figure img {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+section h3 {
+  width: 120px;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: solid 2px #c2002e;
+  padding-bottom: 5px;
+  font-weight: 200;
+  font-family: initial;
+}
+
+#video-wrap { 
+  float: right; 
+  padding-left: 15px; 
+  margin: 0 25px 10px 0; 
+ }
+
+section form {
+  font-family: 'Nunito Sans', sans-serif; 
+  font-weight: 200; 
+  margin: 50px auto;
+  padding: 10px;
+}
+
+section form h4 {
+  margin: 10px 0 5px 0;
+}
+
+section form input {
+  width: 100%;
+  padding: 8px 0 8px 5px;
+  border: solid 2px #000612;
+  border-radius: 5px;
+}
+
+section form textarea {
+  width: 100%;
+  padding-left: 5px;
+  border: solid 2px #000612;
+  border-radius: 5px;
+}
+
+
+/*ARTICLES*/
+
+#articles {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 14px; 
+  background: #f6f6f7;
+  padding: 20px 0;
+}
+
+#articles div {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+#articles div article {
+  margin: auto 20px;
+}
+
+#articles div article h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+}
+
+#articles div article p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#articles div article a {
+  font-family: 'Nunito Sans', sans-serif; 
+  font-size: 14px;
+  font-weight: bold;
+  color: #c2002e;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#articles div article .right {
+  float: right;
+
+
+/*FOOTER*/
+
+footer ul li {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold; 
+  color: #616382;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: fixed;
+}
+
+footer ul li a {
+  color: #616382;
+  padding-bottom: 5px;
+}
+
+footer ul li a:hover {
+  color: #ffffff;
+}
+
+.active {
+  color: #ffffff;
+  border-bottom: solid 2px #c2002e;
+}
+
